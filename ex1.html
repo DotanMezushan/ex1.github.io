@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ex1.css">
+    <script src="./ex1.js">
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" 
+        class="closebtn"
+         onclick="closeNav()">&times;</a>
+       
+        <ul>
+            <li>
+                <a href="#"
+                onclick="toggleChildSun1()"
+                >About</a>
+                <ul class="sun1">
+                    <li>
+                        <a href="#">About1</a>
+                    </li>
+                    <li >
+                        <a href="#">About2</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"
+                onclick="toggleChildSun2()"
+                >Services</a>
+                <ul class="sun2">
+                    <li>
+                        <a href="#">Services1</a>
+                    </li>
+                    <li >
+                        <a href="#">Services2</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"
+                onclick="toggleChildSun3()"
+                >Clients</a>
+                <ul class="sun3">
+                    <li>
+                        <a href="#">Clients1</a>
+                    </li>
+                    <li >
+                        <a href="#">Clients2</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"
+                onclick="toggleChildSun4()"
+                >Contact</a>
+                <ul class="sun4">
+                    <li>
+                        <a href="#">Contact1</a>
+                    </li>
+                    <li >
+                        <a href="#">Contact2</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+      </div>
+      
+      <h2>Animated Sidenav Example</h2>
+      <p>Click on the element below to open the side navigation menu.</p>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</body>
+</html>
