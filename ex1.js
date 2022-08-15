@@ -8,6 +8,7 @@ function closeNav() {
 
 function toggleChildSun1(){
   const childeRef =document.getElementsByClassName("sun1");
+  
   if(childeRef[0].classList.contains("hide")){
     for(let i=0; i<childeRef.length ; i++) {
       childeRef[i].classList.remove("hide");
